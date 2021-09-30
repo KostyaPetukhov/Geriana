@@ -1,0 +1,777 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{ 
+    text-decoration: none;
+    color: white;
+}
+li{
+list-style: none;
+}
+body{
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #ffffff;
+}
+header{
+    height: 760px;
+    margin: 0 auto;
+    background-image:  url(pic/top_banner_base.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(23, 49, 83, 0.4);
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.leftBlock{
+    display: flex;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 260px;
+    height: 61px;
+    background: url(pic/logo.png);
+}
+.leftNav{
+    display: flex;
+    
+}
+.horizontList{
+    display: flex;
+    margin-left: 20px;
+}
+.navButton{
+    margin-top: 28px;
+    margin-left: 10px;
+    height: 20px;
+    font-family: 'Maven Pro';
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 10px 18px;
+}
+.rightBlock{
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+    margin-right: 44px;
+    font-family: 'Maven Pro';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.rightBlock a{
+    margin-left: 45px;
+}
+.rightBlock img{
+    width: 30px;
+    height: 25px;
+    margin-top: -2px;
+    margin-right: -40px;
+    margin-left: 45px;
+}
+.headerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.headerContent h1{
+    font-family: 'Maven Pro';
+    font-size: 80px;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+    color: #8ae2e2;
+    margin-top: 150px;
+    text-align: center;
+}
+.headerContent h2{
+    margin-top: 10px;
+    font-family: 'Maven Pro';
+    font-size: 56px;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+    color: #ffffff;
+    text-align: center;
+}
+.headerContent h3{
+    font-family: 'Maven Pro';
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 400;
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+.headerContent b{
+    font-weight: 700;
+    color: #8ae2e2;
+}
+.headerContent h4{
+    font-family: 'Maven Pro';
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    width: 250px;
+    height: 40px;
+    background-color: #ff5151;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 45px;
+    padding: 15px 18px;
+}
+.questionPar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #dff0f0;
+    max-width: 1440px;
+    height: 80px;
+}
+.questionPar p{
+    font-family: 'Maven Pro';
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #0b2a37;
+}
+.questionPar a{
+    font-weight: 700;
+    text-decoration: underline;
+    color: #8ae2e2;
+}
+.secondBlock{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+.specialistHead p{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Maven Pro';
+    font-size: 36px;
+    font-weight: 900;
+    color: #0b2a37;
+}
+.specialist{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 25px 140px 25px;
+}
+.specialistLi{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    width: 280px;
+    color: black;
+}
+.specialistLi img{
+   width: 120px;
+   height: 120px;
+}
+.specialistLi h1{
+    margin-top: 45px;
+    text-align: center;
+    font-family: 'Maven Pro';
+    font-size: 22px;
+    font-weight: 700;
+    color: #0b2a37;
+    height: 50px;
+}
+.specialistLi p{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Maven Pro';
+    font-size: 16px;
+    font-weight: 400;
+    color: #0b2a37;
+}
+.thirdBlock{
+    margin: 0 auto;
+    background: url(pic/thirdBlock.png);
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fourthBlock{
+    display: flex;
+    align-content: space-between;
+    margin: 0 auto;
+    background-color: #66cfcf;
+}
+.fourthBlockLeft{
+    display: flex;
+    flex-direction: column;
+}
+.fourthBlockLeft h1{
+    font-size: 82px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-top: 160px;
+    margin-left: 65px;
+}
+.fourthBlockLeft p{
+    font-family: 'Maven Pro';
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 180px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    margin-top: 70px;
+    margin-left: 65px;
+    margin-bottom: 160px;
+    padding: 25px 50px;
+}
+.fourthBlockRight{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-bottom: 110px;
+}
+.blockOne{
+    display: flex;
+    margin-left: 120px;
+    z-index: 1;
+}
+.search{
+    width: 60px;
+    height: 60px;
+}
+.arrowLeft{
+    margin-top: 25px;
+    margin-right: 45px;
+    width: 256px;
+    height: 184px;
+}
+.fourthBlockText {
+    width: 220px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: 'Maven Pro';
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.fourthBlockBold {
+    font-family: 'Maven Pro';
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.blockTwo{
+    display: flex;
+    margin-top: -10px;
+    z-index: 2;
+}
+.arrowRight{
+    margin-right: 10px;
+    width: 256px;
+    height: 184px;
+}
+.fourthBlockTextTwo {
+    font-family: 'Maven Pro';
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: right;
+    margin-top: -10px;
+}
+.rightImg {
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+.blockThree{
+    display: flex;
+    margin-left: 120px;
+    margin-top: -35px;
+    z-index: 3;
+}
+.blockFour{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -10px;
+    margin-right: 160px;
+    z-index: 4;
+}
+.fifthBlock{
+    margin: 0 auto;
+    background: url(pic/fifthBlock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 540px;
+}
+.sixBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-bottom: 95px;
+}
+.sixBlock h1 {
+    font-family: 'Maven Pro';
+    font-size: 36px;
+    font-weight: 900;
+    color: #0b2a37;
+    margin-top: 95px;
+    text-align: center;
+}
+.clientSay {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+.contentBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.rewiew {
+    background-image: url(pic/ask.png);
+    width: 410px;
+    height: 150px;
+    font-family: 'Maven Pro';
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #0b2a37;
+}
+.rewiewText {
+    padding: 35px 20px 50px 20px;
+}
+.client {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+.clientName h2{
+    margin: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0b2a37;
+    text-align: right;
+    margin-right: 10px;
+}
+.clientName p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0b2a37;
+    text-align: right;
+    margin-right: 10px;
+}
+.clientImg {
+    width: 50px;
+    height: 50px;
+}
+.topBannerSix {
+    margin: 0 auto;
+    background: url(pic/top_banner6.png);
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.seventhBlock {
+    display: flex;
+    background-image: url(pic/topBannerSeven.png);
+}
+.seventhBlockRight {
+    padding-top: 80px;
+}
+.lineImg{
+    width: 50px;
+    height: 3px;
+}
+.seventhBlockLeft{
+    width: 50%;
+    padding: 160px 0px 0px 105px;
+    font-family: 'Maven Pro';
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.seventhBlockContent{
+    margin-right: 20%;
+    margin-bottom: 125px;
+}
+.seventhBlockContent p{
+    padding-bottom: 20px;
+}
+.call{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.callText{
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Maven Pro';
+    font-size: 18px;
+    font-weight: 500;
+    color: #0b2a37;
+}
+.callText span {
+    font-size: 36px;
+    font-weight: 900;
+}
+.callButton {
+    background-image: url(pic/call_btn_2.png);
+    width: 210px;
+    height: 40px;
+    opacity: 0.9;
+    background-color: #ff5151;
+    border-radius: 6px;
+    margin: 40px auto;
+}
+.callButton p {
+    font-family: 'Maven Pro';
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 11px 18px;
+}
+footer {
+    display: flex;
+    background-color: #0b2a37;
+}
+.footerLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 85px 0px 0px 100px;
+}
+.footerLogo {
+    width: 220px;
+    height: 50px;
+}
+.followUs{
+    font-family: 'Maven Pro';
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 35px;
+}
+.followUs span{
+    vertical-align: 7px;
+}
+.followImg{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+.copyright{
+    margin-top: 15px;
+    opacity: 0.5;
+    font-family: 'Maven Pro';
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.footerRight {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 45px 90px 0px;
+    width: 50%;
+}
+.footerLink{
+    display: flex;
+    flex-direction: column;
+}
+.footerLinkHead{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.footerLinkText {
+    opacity: 0.8;
+    font-family: 'Maven Pro';
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.dropbtn {
+    background-color: #102c42;
+    width: 120px;
+    margin-top: 28px;
+    margin-right: 5%;
+    font-size: 30px;
+    border: none;
+    color: #ffffff;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    background-color: #102c42;
+    width: 120px;
+    margin-right: 5%;
+    z-index: 1;
+}
+.dropdown-content a {
+    font-family: 'Maven Pro';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.dropdown-content a:hover {color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+@media only screen and (min-width: 930px) {
+    .dropdown {
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .logo {
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 260px;
+        height: 61px;
+    }
+    .dropdown-content a {
+        font-size: 12px;
+    }
+    .dropdown-content {
+        width: 80px;
+    }
+    .dropbtn {
+        width: 80px;
+    }
+    .rightBlock {
+        display: none;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .dropdown-content a {
+        font-size: 10px;
+    }
+    .dropdown-content {
+        width: 60px;
+    }
+    .dropbtn {
+        width: 60px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .dropdown-content a {
+        font-size: 8px;
+    }
+    .dropdown-content {
+        width: 40px;
+    }
+    .dropbtn {
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .rightBlock {
+        display: none;
+    }
+    .leftBlock{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 930px) {
+    header {
+    background-color: #0b2a37;
+    background-image: none;
+    height: 100%;
+    }
+    .headerContent h1{
+        margin-top: 120px;
+        font-size: 60px;
+    }
+    .headerContent h2{
+        font-size: 45px;
+    }
+    .headerContent h3{
+        font-size: 20px;
+    }
+    .headerContent h4{
+        margin-bottom: 100px;
+    }
+    .leftNav {
+        display: none;
+    }
+    .rightBlock a{
+        display: none;
+    }
+    .rightBlock img{
+        display: none;
+    }
+    .footerRight {
+        display: none;
+    }
+    .footerLeft {
+        display: flex;
+        align-items: center;
+        margin: 50px auto;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .specialist{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+        li.specialistLi{
+            margin-top: 20px;
+        }
+    }
+@media only screen and (max-width: 1300px) {
+    .clientSay {
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 1410px) {
+    .arrowLeft{
+        display: none;
+    }
+    .arrowRight {
+        display: none;
+    }
+    .fourthBlockRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 5% auto;
+    }
+    .blockOne {
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    .blockTwo {
+        margin: 0 auto;
+        align-items: center;
+        text-align: right;
+    }
+    .blockThree {
+        margin: -20px auto;
+        align-items: center;
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    .blockFour {
+        margin: 0 auto;
+        align-items: center;
+        text-align: right;
+    }
+    .search {
+        margin-left: 15px;
+
+    }
+    
+}
+@media only screen and (max-width: 1150px) { 
+    .specialistLi h1{
+        height: 80px;
+    }
+}
+@media only screen and (max-width: 1100px) { 
+    .fourthBlock {
+        display: flex;
+        flex-direction: column;
+    }
+    .fourthBlockLeft{
+        align-items: center;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .fourthBlockLeft h1{
+        font-size: 50px;
+        margin: 0 auto;
+    }
+    .fourthBlockLeft p{
+        margin: 50px 0px;
+    }
+    .blockOne {
+        padding-bottom: 40px;   
+    }
+    .blockTwo {
+        padding-bottom: 40px; 
+    }
+    .blockThree {
+        padding-bottom: 40px;
+        margin-top: -20px; 
+    }
+    .blockFour {
+        padding-bottom: 40px; 
+    }
+    .seventhBlock {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .seventhBlockRight {
+        margin: 0 auto;
+    }
+    .seventhBlockLeft {
+        padding: 60px 0px 0px 0px;
+        margin: 0 auto;
+        width: 70%;
+        font-family: 'Maven Pro';
+        font-size: 16px;
+    }
+    .seventhBlockContent{
+        margin-right: 0px;
+        font-family: 'Maven Pro';
+        font-size: 16px;
+    }
+}
+
+    
+
+      
+

@@ -529,7 +529,6 @@ footer {
     color: #ffffff;
     margin-top: 50px;
 }
-
 .dropbtn {
     background-color: #102c42;
     width: 120px;
@@ -571,11 +570,30 @@ footer {
     }
 }
 @media only screen and (max-width: 500px) {
+    .rewiew {
+        width: 260px;
+        height: 170px;
+        background-color: #eff7f7;
+    }
+    .rewiewText {
+        padding: 15px 20px 15px 20px;
+        text-align: center;
+    }
+    .fifthBlock {
+        display: none;
+    }
+    .thirdBlock {
+        display: none;
+    }
+    .topBannerSix {
+        display: none;
+    }
     .logo {
         margin-top: 20px;
-        margin-left: 5px;
-        width: 260px;
-        height: 61px;
+        margin-left: 20px;
+        width: 130px;
+        height: 31px;
+        background-image: url(pic/logo_minimini.png);
     }
     .dropdown-content a {
         font-size: 12px;
@@ -584,32 +602,19 @@ footer {
         width: 80px;
     }
     .dropbtn {
+        margin-top: 15px;
+        margin-right: 30px;
         width: 80px;
+    }
+    .fourthBlockText {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .fourthBlockTextTwo {
+        font-size: 14px;
     }
     .rightBlock {
         display: none;
-    }
-}
-@media only screen and (max-width: 400px) {
-    .dropdown-content a {
-        font-size: 10px;
-    }
-    .dropdown-content {
-        width: 60px;
-    }
-    .dropbtn {
-        width: 60px;
-    }
-}
-@media only screen and (max-width: 330px) {
-    .dropdown-content a {
-        font-size: 8px;
-    }
-    .dropdown-content {
-        width: 40px;
-    }
-    .dropbtn {
-        width: 40px;
     }
 }
 
@@ -731,7 +736,7 @@ footer {
         margin-top: 10%;
     }
     .fourthBlockLeft h1{
-        font-size: 50px;
+        font-size: 40px;
         margin: 0 auto;
     }
     .fourthBlockLeft p{
